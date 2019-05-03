@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3F39F839227B698600BD417C /* messageBlob.sks in Resources */ = {isa = PBXBuildFile; fileRef = 3F39F838227B698600BD417C /* messageBlob.sks */; };
 		3FB110D5227359E300D7A632 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FB110D4227359E300D7A632 /* AppDelegate.swift */; };
 		3FB110D7227359E300D7A632 /* art.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = 3FB110D6227359E300D7A632 /* art.scnassets */; };
 		3FB110D9227359E300D7A632 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FB110D8227359E300D7A632 /* ViewController.swift */; };
@@ -15,7 +16,6 @@
 		3FB110E1227359E400D7A632 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3FB110DF227359E400D7A632 /* LaunchScreen.storyboard */; };
 		3FB110EC227359E400D7A632 /* TrashieTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FB110EB227359E400D7A632 /* TrashieTests.swift */; };
 		3FB110F7227359E400D7A632 /* TrashieUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FB110F6227359E400D7A632 /* TrashieUITests.swift */; };
-		3FB1114122735FDA00D7A632 /* messageBlob.sks in Resources */ = {isa = PBXBuildFile; fileRef = 3FB1114022735FDA00D7A632 /* messageBlob.sks */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +36,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3F39F838227B698600BD417C /* messageBlob.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; name = messageBlob.sks; path = ../../textBlob/textBlob/messageBlob.sks; sourceTree = "<group>"; };
 		3FB110D1227359E300D7A632 /* Trashie.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Trashie.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3FB110D4227359E300D7A632 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3FB110D6227359E300D7A632 /* art.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = art.scnassets; sourceTree = "<group>"; };
@@ -50,7 +51,6 @@
 		3FB110F2227359E400D7A632 /* TrashieUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TrashieUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3FB110F6227359E400D7A632 /* TrashieUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrashieUITests.swift; sourceTree = "<group>"; };
 		3FB110F8227359E400D7A632 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		3FB1114022735FDA00D7A632 /* messageBlob.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = messageBlob.sks; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,8 +104,8 @@
 				3FB110D4227359E300D7A632 /* AppDelegate.swift */,
 				3FB110D6227359E300D7A632 /* art.scnassets */,
 				3FB110D8227359E300D7A632 /* ViewController.swift */,
+				3F39F838227B698600BD417C /* messageBlob.sks */,
 				3FB110DA227359E300D7A632 /* Main.storyboard */,
-				3FB1114022735FDA00D7A632 /* messageBlob.sks */,
 				3FB110DD227359E400D7A632 /* Assets.xcassets */,
 				3FB110DF227359E400D7A632 /* LaunchScreen.storyboard */,
 				3FB110E2227359E400D7A632 /* Info.plist */,
@@ -237,7 +237,7 @@
 			files = (
 				3FB110D7227359E300D7A632 /* art.scnassets in Resources */,
 				3FB110E1227359E400D7A632 /* LaunchScreen.storyboard in Resources */,
-				3FB1114122735FDA00D7A632 /* messageBlob.sks in Resources */,
+				3F39F839227B698600BD417C /* messageBlob.sks in Resources */,
 				3FB110DE227359E400D7A632 /* Assets.xcassets in Resources */,
 				3FB110DC227359E300D7A632 /* Main.storyboard in Resources */,
 			);
@@ -441,6 +441,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 242Z6V7KMS;
 				INFOPLIST_FILE = Trashie/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -458,6 +459,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 242Z6V7KMS;
 				INFOPLIST_FILE = Trashie/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",

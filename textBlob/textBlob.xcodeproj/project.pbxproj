@@ -15,6 +15,7 @@
 		3FB1112622735C4A00D7A632 /* textBlobTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FB1112522735C4A00D7A632 /* textBlobTests.swift */; };
 		3FB1113122735C4B00D7A632 /* textBlobUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FB1113022735C4B00D7A632 /* textBlobUITests.swift */; };
 		3FB1113F22735C5F00D7A632 /* messageBlob.sks in Resources */ = {isa = PBXBuildFile; fileRef = 3FB1113E22735C5F00D7A632 /* messageBlob.sks */; };
+		3FE52849227A4B74004B073A /* MyActions.sks in Resources */ = {isa = PBXBuildFile; fileRef = 3FE52848227A4B74004B073A /* MyActions.sks */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		3FB1113022735C4B00D7A632 /* textBlobUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = textBlobUITests.swift; sourceTree = "<group>"; };
 		3FB1113222735C4B00D7A632 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3FB1113E22735C5F00D7A632 /* messageBlob.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = messageBlob.sks; sourceTree = "<group>"; };
+		3FE52848227A4B74004B073A /* MyActions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = MyActions.sks; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +81,7 @@
 		3FB1110422735C4900D7A632 = {
 			isa = PBXGroup;
 			children = (
+				3FE52848227A4B74004B073A /* MyActions.sks */,
 				3FB1110F22735C4900D7A632 /* textBlob */,
 				3FB1112422735C4A00D7A632 /* textBlobTests */,
 				3FB1112F22735C4B00D7A632 /* textBlobUITests */,
@@ -232,6 +235,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3FE52849227A4B74004B073A /* MyActions.sks in Resources */,
 				3FB1111B22735C4A00D7A632 /* LaunchScreen.storyboard in Resources */,
 				3FB1111822735C4A00D7A632 /* Assets.xcassets in Resources */,
 				3FB1113F22735C5F00D7A632 /* messageBlob.sks in Resources */,
