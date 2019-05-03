@@ -19,24 +19,24 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="happyeyes left" translatesAutoresizingMaskIntoConstraints="NO" id="myA-y4-Mbo">
-                                <rect key="frame" x="34" y="175" width="111" height="125"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="happyeyesright" translatesAutoresizingMaskIntoConstraints="NO" id="ZcK-ev-PtY">
-                                <rect key="frame" x="255" y="175" width="139" height="129"/>
+                                <rect key="frame" x="20" y="91" width="111" height="125"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="recyclesymbol" translatesAutoresizingMaskIntoConstraints="NO" id="4c9-oA-h6z">
-                                <rect key="frame" x="102" y="342" width="211" height="192"/>
+                                <rect key="frame" x="116" y="280" width="185" height="171"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Trashie" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="v7g-OJ-6ZL">
-                                <rect key="frame" x="68" y="581" width="279" height="107"/>
+                                <rect key="frame" x="69" y="515" width="279" height="107"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="Futura-Bold" family="Futura" pointSize="67"/>
                                 <color key="textColor" name="controlBackgroundColor" catalog="System" colorSpace="catalog"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="happyeyesright" translatesAutoresizingMaskIntoConstraints="NO" id="ZcK-ev-PtY">
+                                <rect key="frame" x="265" y="89" width="139" height="129"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" red="0.17429577003491431" green="0.43225793393782386" blue="0.30965496939373527" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>

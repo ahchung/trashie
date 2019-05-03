@@ -5,7 +5,19 @@
   },
   "resources" : [
     {
+      "filename" : "Advil.arobject"
+    },
+    {
+      "filename" : "apple.arobject"
+    },
+    {
+      "filename" : "cup.arobject"
+    },
+    {
       "filename" : "peep.arobject"
+    },
+    {
+      "filename" : "rosewater.arobject"
     }
   ]
 }

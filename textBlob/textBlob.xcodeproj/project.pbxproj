@@ -14,7 +14,9 @@
 		3FB1111B22735C4A00D7A632 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3FB1111922735C4A00D7A632 /* LaunchScreen.storyboard */; };
 		3FB1112622735C4A00D7A632 /* textBlobTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FB1112522735C4A00D7A632 /* textBlobTests.swift */; };
 		3FB1113122735C4B00D7A632 /* textBlobUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FB1113022735C4B00D7A632 /* textBlobUITests.swift */; };
-		3FB1113F22735C5F00D7A632 /* messageBlob.sks in Resources */ = {isa = PBXBuildFile; fileRef = 3FB1113E22735C5F00D7A632 /* messageBlob.sks */; };
+		3FB1113F22735C5F00D7A632 /* messageBlobRecycle.sks in Resources */ = {isa = PBXBuildFile; fileRef = 3FB1113E22735C5F00D7A632 /* messageBlobRecycle.sks */; };
+		3FE3802B227C975700333969 /* messageBlobLandfill.sks in Resources */ = {isa = PBXBuildFile; fileRef = 3FE3802A227C975700333969 /* messageBlobLandfill.sks */; };
+		3FE3802D227C989000333969 /* messageBlobCompost.sks in Resources */ = {isa = PBXBuildFile; fileRef = 3FE3802C227C989000333969 /* messageBlobCompost.sks */; };
 		3FE52849227A4B74004B073A /* MyActions.sks in Resources */ = {isa = PBXBuildFile; fileRef = 3FE52848227A4B74004B073A /* MyActions.sks */; };
 /* End PBXBuildFile section */
 
@@ -49,7 +51,9 @@
 		3FB1112C22735C4A00D7A632 /* textBlobUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = textBlobUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3FB1113022735C4B00D7A632 /* textBlobUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = textBlobUITests.swift; sourceTree = "<group>"; };
 		3FB1113222735C4B00D7A632 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		3FB1113E22735C5F00D7A632 /* messageBlob.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = messageBlob.sks; sourceTree = "<group>"; };
+		3FB1113E22735C5F00D7A632 /* messageBlobRecycle.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; name = messageBlobRecycle.sks; path = ../../Trashie/Trashie/messageBlobRecycle.sks; sourceTree = "<group>"; };
+		3FE3802A227C975700333969 /* messageBlobLandfill.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = messageBlobLandfill.sks; sourceTree = "<group>"; };
+		3FE3802C227C989000333969 /* messageBlobCompost.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = messageBlobCompost.sks; sourceTree = "<group>"; };
 		3FE52848227A4B74004B073A /* MyActions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = MyActions.sks; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -108,7 +112,9 @@
 				3FB1111722735C4A00D7A632 /* Assets.xcassets */,
 				3FB1111922735C4A00D7A632 /* LaunchScreen.storyboard */,
 				3FB1111C22735C4A00D7A632 /* Info.plist */,
-				3FB1113E22735C5F00D7A632 /* messageBlob.sks */,
+				3FB1113E22735C5F00D7A632 /* messageBlobRecycle.sks */,
+				3FE3802A227C975700333969 /* messageBlobLandfill.sks */,
+				3FE3802C227C989000333969 /* messageBlobCompost.sks */,
 			);
 			path = textBlob;
 			sourceTree = "<group>";
@@ -235,10 +241,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3FE3802B227C975700333969 /* messageBlobLandfill.sks in Resources */,
 				3FE52849227A4B74004B073A /* MyActions.sks in Resources */,
+				3FE3802D227C989000333969 /* messageBlobCompost.sks in Resources */,
 				3FB1111B22735C4A00D7A632 /* LaunchScreen.storyboard in Resources */,
 				3FB1111822735C4A00D7A632 /* Assets.xcassets in Resources */,
-				3FB1113F22735C5F00D7A632 /* messageBlob.sks in Resources */,
+				3FB1113F22735C5F00D7A632 /* messageBlobRecycle.sks in Resources */,
 				3FB1111622735C4900D7A632 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

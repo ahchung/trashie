@@ -60,10 +60,11 @@ class ViewController: UIViewController, ARSCNViewDelegate {
             
                 plane.cornerRadius = plane.width / 8
             
-                let spriteKitScene = SKScene(fileNamed: "messageBlob")
+                
+                let spriteKitScene = SKScene(fileNamed: "messageBlobRecycle")
 
                 plane.firstMaterial?.diffuse.contents = spriteKitScene
-                //plane.firstMaterial?.isDoubleSided = true
+                plane.firstMaterial?.isDoubleSided = true
                 plane.firstMaterial?.diffuse.contentsTransform = SCNMatrix4Translate(SCNMatrix4MakeScale(1, -1, 1), 0, 1, 0)
             
                 let planeNode = SCNNode(geometry: plane)
