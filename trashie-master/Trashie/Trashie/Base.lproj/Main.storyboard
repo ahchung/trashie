@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.55" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BV1-FR-VrT">
+    <device id="retina6_1" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.43"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tXr-a1-R10">
+            <objects>
+                <viewController id="BV1-FR-VrT" customClass="ViewController" customModule="Trashie" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="U0K-SW-4ec">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <arscnView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="BrB-h1-WRS">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="862"/>
+                            </arscnView>
+                            <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" axis="vertical" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="ux6-zM-SAd">
+                                <rect key="frame" x="0.0" y="44" width="100" height="150"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cXL-xE-ESj">
+                                        <rect key="frame" x="0.0" y="0.0" width="100" height="150"/>
+                                        <color key="backgroundColor" red="0.20133301615715027" green="0.44135403633117676" blue="0.090472213923931122" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
+                                        <state key="normal" title="Options">
+                                            <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="optionsClicked:" destination="BV1-FR-VrT" eventType="touchUpInside" id="Ar3-lx-Ax4"/>
+                                        </connections>
+                                    </button>
+                                    <button hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jgP-Mr-8LN">
+                                        <rect key="frame" x="0.0" y="150" width="100" height="0.0"/>
+                                        <color key="backgroundColor" red="0.20133301615715027" green="0.44135403633117676" blue="0.090472213923931122" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                        <state key="normal" title="Scan Items">
+                                            <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="optionsTapped:" destination="BV1-FR-VrT" eventType="touchUpInside" id="hVJ-CJ-eIX"/>
+                                        </connections>
+                                    </button>
+                                    <button hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HVX-S9-obT">
+                                        <rect key="frame" x="0.0" y="150" width="100" height="0.0"/>
+                                        <color key="backgroundColor" red="0.20133301615715027" green="0.44135403633117676" blue="0.090472213923931122" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                        <state key="normal" title="Map">
+                                            <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="optionsTapped:" destination="BV1-FR-VrT" eventType="touchUpInside" id="z5r-UR-HiG"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="cXL-xE-ESj" firstAttribute="leading" secondItem="ux6-zM-SAd" secondAttribute="leading" id="2eG-qc-gPR"/>
+                                    <constraint firstAttribute="width" constant="100" id="6h2-Tz-Ofg"/>
+                                    <constraint firstAttribute="trailing" secondItem="cXL-xE-ESj" secondAttribute="trailing" id="BUO-aj-aUh"/>
+                                    <constraint firstItem="jgP-Mr-8LN" firstAttribute="top" secondItem="cXL-xE-ESj" secondAttribute="bottom" id="Jgb-88-HtT"/>
+                                    <constraint firstItem="HVX-S9-obT" firstAttribute="top" secondItem="jgP-Mr-8LN" secondAttribute="bottom" id="KbC-e5-aLP"/>
+                                    <constraint firstAttribute="trailing" secondItem="HVX-S9-obT" secondAttribute="trailing" id="P9Z-o8-VBu"/>
+                                    <constraint firstItem="jgP-Mr-8LN" firstAttribute="leading" secondItem="ux6-zM-SAd" secondAttribute="leading" id="Rqu-cS-RRR"/>
+                                    <constraint firstAttribute="trailing" secondItem="jgP-Mr-8LN" secondAttribute="trailing" id="T85-q8-dWI"/>
+                                    <constraint firstItem="HVX-S9-obT" firstAttribute="top" secondItem="jgP-Mr-8LN" secondAttribute="bottom" id="Tj7-DN-0rS"/>
+                                    <constraint firstAttribute="height" constant="150" id="Xib-k2-hcE"/>
+                                    <constraint firstAttribute="trailing" secondItem="cXL-xE-ESj" secondAttribute="trailing" id="YIp-RU-ggi"/>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="150" id="b4P-VL-nNb"/>
+                                    <constraint firstItem="HVX-S9-obT" firstAttribute="leading" secondItem="ux6-zM-SAd" secondAttribute="leading" id="boK-0H-Vaa"/>
+                                    <constraint firstAttribute="trailing" secondItem="HVX-S9-obT" secondAttribute="trailing" id="c7d-4J-S2Q"/>
+                                    <constraint firstItem="jgP-Mr-8LN" firstAttribute="leading" secondItem="ux6-zM-SAd" secondAttribute="leading" id="dqd-52-ddb"/>
+                                    <constraint firstItem="cXL-xE-ESj" firstAttribute="top" secondItem="ux6-zM-SAd" secondAttribute="top" id="drS-P6-Qah"/>
+                                    <constraint firstItem="cXL-xE-ESj" firstAttribute="top" secondItem="ux6-zM-SAd" secondAttribute="top" id="lYg-FX-OuX"/>
+                                    <constraint firstItem="cXL-xE-ESj" firstAttribute="leading" secondItem="ux6-zM-SAd" secondAttribute="leading" id="lv2-Lz-SyO"/>
+                                    <constraint firstItem="HVX-S9-obT" firstAttribute="leading" secondItem="ux6-zM-SAd" secondAttribute="leading" id="vCd-KH-Oih"/>
+                                    <constraint firstAttribute="trailing" secondItem="jgP-Mr-8LN" secondAttribute="trailing" id="ws2-UD-Sa9"/>
+                                    <constraint firstItem="jgP-Mr-8LN" firstAttribute="top" secondItem="cXL-xE-ESj" secondAttribute="bottom" id="xXW-8f-amQ"/>
+                                    <constraint firstAttribute="width" relation="lessThanOrEqual" constant="150" id="xsO-bh-pAx"/>
+                                </constraints>
+                            </stackView>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="BrB-h1-WRS" firstAttribute="leading" secondItem="fQZ-KI-GVf" secondAttribute="leading" id="GsS-dJ-CKf"/>
+                            <constraint firstItem="BrB-h1-WRS" firstAttribute="bottom" secondItem="fQZ-KI-GVf" secondAttribute="bottom" id="VpT-BR-CcM"/>
+                            <constraint firstItem="BrB-h1-WRS" firstAttribute="trailing" secondItem="fQZ-KI-GVf" secondAttribute="trailing" id="XyZ-9z-H8e"/>
+                            <constraint firstItem="ux6-zM-SAd" firstAttribute="leading" secondItem="fQZ-KI-GVf" secondAttribute="leading" id="jyJ-if-kvB"/>
+                            <constraint firstItem="BrB-h1-WRS" firstAttribute="top" secondItem="U0K-SW-4ec" secondAttribute="top" id="rJc-2c-zQA"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="fQZ-KI-GVf"/>
+                    </view>
+                    <connections>
+                        <outlet property="sceneView" destination="BrB-h1-WRS" id="5nT-qQ-ynl"/>
+                        <outletCollection property="optionsButtons" destination="jgP-Mr-8LN" collectionClass="NSMutableArray" id="zkO-sT-ktr"/>
+                        <outletCollection property="optionsButtons" destination="HVX-S9-obT" collectionClass="NSMutableArray" id="OLM-4q-v12"/>
+                        <segue destination="C4H-aD-Z8j" kind="show" id="kEh-89-y1T"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="SZV-WD-TEh" sceneMemberID="firstResponder"/>
+            </objects>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="j74-fs-whV">
+            <objects>
+                <viewController id="C4H-aD-Z8j" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="073-Se-GSw">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <accessibility key="accessibilityConfiguration" identifier="clickedMap"/>
+                        <viewLayoutGuide key="safeArea" id="2l8-uI-5q0"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="mKZ-y7-Sxm" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="736" y="23"/>
+        </scene>
+    </scenes>
+</document>
