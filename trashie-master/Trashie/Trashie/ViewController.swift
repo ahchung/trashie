@@ -74,7 +74,7 @@ class ViewController: UIViewController, ARSCNViewDelegate {
             print("pressed Scan Items")
         case .map:
             print("pressed Map")
-//            self.performSegue(withIdentifier: "clickedMap", sender: self) //TERMINATES WITH UNCAUGHT EXCEPTION
+            self.performSegue(withIdentifier: "clickedMap", sender: self)
         //default: //keep default as scan
             //print("Scan screen")
         }
