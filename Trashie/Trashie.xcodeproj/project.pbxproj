@@ -15,8 +15,9 @@
 		3FB110E1227359E400D7A632 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3FB110DF227359E400D7A632 /* LaunchScreen.storyboard */; };
 		3FB110EC227359E400D7A632 /* TrashieTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FB110EB227359E400D7A632 /* TrashieTests.swift */; };
 		3FB110F7227359E400D7A632 /* TrashieUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FB110F6227359E400D7A632 /* TrashieUITests.swift */; };
-		3FE38032227C996800333969 /* messageBlobCompost.sks in Resources */ = {isa = PBXBuildFile; fileRef = 3FE3802F227C996700333969 /* messageBlobCompost.sks */; };
-		3FE38033227C996800333969 /* messageBlobLandfill.sks in Resources */ = {isa = PBXBuildFile; fileRef = 3FE38030227C996700333969 /* messageBlobLandfill.sks */; };
+		3FE3803A227CC03200333969 /* messageBlobRecycle.sks in Resources */ = {isa = PBXBuildFile; fileRef = 3FE38037227CC03200333969 /* messageBlobRecycle.sks */; };
+		3FE3803B227CC03200333969 /* messageBlobCompost.sks in Resources */ = {isa = PBXBuildFile; fileRef = 3FE38038227CC03200333969 /* messageBlobCompost.sks */; };
+		3FE3803C227CC03200333969 /* messageBlobLandfill.sks in Resources */ = {isa = PBXBuildFile; fileRef = 3FE38039227CC03200333969 /* messageBlobLandfill.sks */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,9 +52,9 @@
 		3FB110F2227359E400D7A632 /* TrashieUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TrashieUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3FB110F6227359E400D7A632 /* TrashieUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrashieUITests.swift; sourceTree = "<group>"; };
 		3FB110F8227359E400D7A632 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		3FE3802F227C996700333969 /* messageBlobCompost.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; name = messageBlobCompost.sks; path = ../../textBlob/textBlob/messageBlobCompost.sks; sourceTree = "<group>"; };
-		3FE38030227C996700333969 /* messageBlobLandfill.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; name = messageBlobLandfill.sks; path = ../../textBlob/textBlob/messageBlobLandfill.sks; sourceTree = "<group>"; };
-		3FE38034227C9AE000333969 /* messageBlobRecycle.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = messageBlobRecycle.sks; sourceTree = "<group>"; };
+		3FE38037227CC03200333969 /* messageBlobRecycle.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = messageBlobRecycle.sks; sourceTree = "<group>"; };
+		3FE38038227CC03200333969 /* messageBlobCompost.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; name = messageBlobCompost.sks; path = ../../textBlob/textBlob/messageBlobCompost.sks; sourceTree = "<group>"; };
+		3FE38039227CC03200333969 /* messageBlobLandfill.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; name = messageBlobLandfill.sks; path = ../../textBlob/textBlob/messageBlobLandfill.sks; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,9 +108,9 @@
 				3FB110D4227359E300D7A632 /* AppDelegate.swift */,
 				3FB110D6227359E300D7A632 /* art.scnassets */,
 				3FB110D8227359E300D7A632 /* ViewController.swift */,
-				3FE3802F227C996700333969 /* messageBlobCompost.sks */,
-				3FE38030227C996700333969 /* messageBlobLandfill.sks */,
-				3FE38034227C9AE000333969 /* messageBlobRecycle.sks */,
+				3FE38038227CC03200333969 /* messageBlobCompost.sks */,
+				3FE38039227CC03200333969 /* messageBlobLandfill.sks */,
+				3FE38037227CC03200333969 /* messageBlobRecycle.sks */,
 				3FB110DA227359E300D7A632 /* Main.storyboard */,
 				3FB110DD227359E400D7A632 /* Assets.xcassets */,
 				3FB110DF227359E400D7A632 /* LaunchScreen.storyboard */,
@@ -240,11 +241,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3FE38033227C996800333969 /* messageBlobLandfill.sks in Resources */,
+				3FE3803A227CC03200333969 /* messageBlobRecycle.sks in Resources */,
 				3FB110D7227359E300D7A632 /* art.scnassets in Resources */,
 				3FB110E1227359E400D7A632 /* LaunchScreen.storyboard in Resources */,
-				3FE38032227C996800333969 /* messageBlobCompost.sks in Resources */,
 				3FB110DE227359E400D7A632 /* Assets.xcassets in Resources */,
+				3FE3803C227CC03200333969 /* messageBlobLandfill.sks in Resources */,
+				3FE3803B227CC03200333969 /* messageBlobCompost.sks in Resources */,
 				3FB110DC227359E300D7A632 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

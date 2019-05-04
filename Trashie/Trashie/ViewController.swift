@@ -54,22 +54,31 @@ class ViewController: UIViewController, ARSCNViewDelegate {
     func renderer(_ renderer: SCNSceneRenderer, nodeFor anchor: ARAnchor) -> SCNNode? {
         let node = SCNNode()
         
-        if let objectAnchor = anchor as? ARObjectAnchor{
+        if let objectAnchor = anchor as? ARObjectAnchor,
+            let objectName = objectAnchor.referenceObject.name {
             
-            let plane = SCNPlane(width: CGFloat(objectAnchor.referenceObject.extent.x*0.8), height: CGFloat(objectAnchor.referenceObject.extent.y*0.5))
+            let plane = SCNPlane(width: CGFloat(objectAnchor.referenceObject.extent.x*0.6), height: CGFloat(objectAnchor.referenceObject.extent.y*0.6))
             
                 plane.cornerRadius = plane.width / 8
             
-                
-                let spriteKitScene = SKScene(fileNamed: "messageBlobRecycle")
+                var spriteKitScene = SKScene(fileNamed: "messageBlobRecycle")
+            
+                if (objectName == "banana"){
+                    spriteKitScene = SKScene(fileNamed: "messageBlobCompost")
+                } else if (objectName == "cup"){
+                    spriteKitScene = SKScene(fileNamed: "messageBlobLandfill")
+                } else if (objectName == "peep" || objectName == "rosewater" || objectName == "Advil"){
+                    spriteKitScene = SKScene(fileNamed: "messageBlobRecycle")
+                }
 
                 plane.firstMaterial?.diffuse.contents = spriteKitScene
                 plane.firstMaterial?.isDoubleSided = true
                 plane.firstMaterial?.diffuse.contentsTransform = SCNMatrix4Translate(SCNMatrix4MakeScale(1, -1, 1), 0, 1, 0)
+        
             
                 let planeNode = SCNNode(geometry: plane)
-            planeNode.position = SCNVector3Make(objectAnchor.referenceObject.center.x, objectAnchor.referenceObject.center.y + 0.1, objectAnchor.referenceObject.center.z)
-            
+                planeNode.position = SCNVector3Make(objectAnchor.referenceObject.center.x, objectAnchor.referenceObject.center.y + 0.1, objectAnchor.referenceObject.center.z)
+                planeNode.eulerAngles.y = -.pi / 9
             node.addChildNode(planeNode)
         }
     
